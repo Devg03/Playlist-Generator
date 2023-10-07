@@ -11,6 +11,7 @@ load_dotenv()
 
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET_ID = os.getenv("CLIENT_SECRET_ID")
+<<<<<<< HEAD
 REDIRECT_URI = os.getenv("REDIRECT_URL")
 
 # print(CLIENT_ID + " " + CLIENT_SECRET_ID + " " + REDIRECT_URL)
@@ -37,3 +38,8 @@ def auth():
 # Code: 
 
 auth()
+=======
+REDIRECT_URL = os.getenv("REDIRECT_URL")
+
+print(CLIENT_ID + " " + CLIENT_SECRET_ID + " " + REDIRECT_URL)
+>>>>>>> 2320c341312a45371f543451b733e08bc5b0ab60
